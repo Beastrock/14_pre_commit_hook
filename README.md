@@ -14,6 +14,6 @@ So let us simply create pre-commit for this:
 2) Move it to the hooks folder.  
   
 # Futher learning sources
-+ A framework for managing and maintaining multi-language pre-commit hooks: [pre-commit by Yelp](pre-commit.com). 
-+ Chapter from GIT book about pre-commit and other availible hooks [Настройка Git - Перехватчики в Git](https://git-scm.com/book/ru/v1/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-Git-%D0%9F%D0%B5%D1%80%D0%B5%D1%85%D0%B2%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B8-%D0%B2-Git).   
++ A framework for managing and maintaining multi-language pre-commit hooks: [pre-commit by Yelp](http://pre-commit.com). 
++ Chapter from GIT book about pre-commit and other availible hooks: [Настройка Git - Перехватчики в Git](https://git-scm.com/book/ru/v1/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-Git-%D0%9F%D0%B5%D1%80%D0%B5%D1%85%D0%B2%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B8-%D0%B2-Git).
 
