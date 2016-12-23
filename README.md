@@ -6,7 +6,7 @@ We can use Python programming language, Ruby and Perl.
 For using pre-commit file you need to put it in `.git\hooks` and named it `pre-commit` without any extension or you can rename existing `pre-commit.sample` which is already in that directory. 
   
 # Pre-commit creating example
-In this task of the devman we have to `test quadratic_eqution.py` by unittest file `test.py` before committing. 
+In this task of the devman we have to test `quadratic_eqution.py` by unittest file `test.py` before committing. 
 So let us simply create pre-commit for this:   
 1) create a file `pre-commit` with such content:  
   `#!/bin/sh`  
