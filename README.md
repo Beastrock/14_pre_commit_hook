@@ -6,7 +6,7 @@ This script illustrates a simple example of using pre-commit hook with Python un
 
 We can use Python programming language, Ruby, Perl and some others .     
  
-# Pre-commit setup  
+# Pre-commit using example guide 
 For using pre-commit file you need to put it in `.git\hooks` and name it `pre-commit` without any extension or also you can rename existing `pre-commit.sample` which is already in that directory.  
 
 Let us setup the example code pre-commit:  
