@@ -20,7 +20,6 @@ Let us setup the example code pre-commit:
 
 4) Commit changes  
 If all is alright you will see this in the console:  
-`$ git commit -m "Add explanation of using the script"  
 ....
 ----------------------------------------------------------------------  
 Ran 4 tests in 0.000s  
@@ -31,6 +30,20 @@ OK`
 
 5) Try to commit changes  
 You will see this:  
+E...
+======================================================================
+ERROR: test_first_root_less_than_second (__main__.QuadraticEquationTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests.py", line 12, in test_first_root_less_than_second
+    root1, root2 = get_roots(1, 2, -3)
+TypeError: 'NoneType' object is not iterable
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (errors=1)
+
 
 No you have all files in status modified again. No chance for bad programmists' commits!  
 6) Profit! Now you know how pre-commit hook works  
