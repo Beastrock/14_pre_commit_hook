@@ -19,9 +19,14 @@ Let us setup the example code pre-commit:
 3) Change `quadratic_equation.py` by deleting '# useless comment` on the last line of script  
 
 4) Commit changes  
-If all is alright you will see this:  
+If all is alright you will see this in the console:  
+`$ git commit -m "Add explanation of using the script"  
+....
+----------------------------------------------------------------------  
+Ran 4 tests in 0.000s  
 
-
+OK`  
+    
 4) No to see how pre-commit prevent commiting replace returning on 11 and 12 lines  
 
 5) Try to commit changes  
